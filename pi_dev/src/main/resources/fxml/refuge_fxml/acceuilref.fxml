@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="refuge.AcceuilrefController">
+   <children>
+      <Label layoutX="-4.0" layoutY="-4.0" prefHeight="400.0" prefWidth="600.0" text="Label" />
+      <AnchorPane prefHeight="400.0" prefWidth="194.0" style="-fx-background-color: #48A5EA;" />
+      <Hyperlink fx:id="logout" layoutX="259.0" layoutY="216.0" onAction="#dec" text="Déconnexion" textFill="#48a5ea">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="profil" layoutX="259.0" layoutY="167.0" onAction="#prof" prefHeight="33.0" prefWidth="144.0" text="Profil" textFill="#48a5ea">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fx:id="img" fitHeight="136.0" fitWidth="327.0" layoutX="67.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="contacta" layoutX="259.0" layoutY="119.0" onAction="#contactass" prefHeight="48.0" prefWidth="271.0" text="Contacter Association" textFill="#48a5ea">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="contactf" layoutX="259.0" layoutY="71.0" onAction="#contactfam" prefHeight="48.0" prefWidth="220.0" text="Contacter Famille" textFill="#48a5ea">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

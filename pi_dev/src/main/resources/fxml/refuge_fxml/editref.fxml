@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="refuge.EditrefController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="481.0" prefWidth="324.0" style="-fx-background-color: #48A5EA;">
+         <children>
+            <DatePicker fx:id="d_naissanceedit" layoutX="172.0" layoutY="293.0" />
+         </children></AnchorPane>
+      <ImageView fitHeight="130.0" fitWidth="226.0" layoutX="225.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nomedit" layoutX="171.0" layoutY="54.0" />
+      <Text layoutX="71.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" wrappingWidth="81.13671875" />
+      <TextField fx:id="prenomedit" layoutX="171.0" layoutY="89.0" />
+      <Text layoutX="71.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom" wrappingWidth="81.13671875" />
+      <TextField fx:id="cinedit" layoutX="171.0" layoutY="126.0" />
+      <Text layoutX="71.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cin" wrappingWidth="81.13671875" />
+      <TextField fx:id="sexeedit" layoutX="171.0" layoutY="205.0" />
+      <Text layoutX="71.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sexe" wrappingWidth="81.13671875" />
+      <TextField fx:id="num_teledit" layoutX="171.0" layoutY="250.0" />
+      <Text layoutX="71.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Num tel" wrappingWidth="81.13671875" />
+      <Text layoutX="71.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date_naissance" wrappingWidth="81.13671875" />
+      <TextField fx:id="villeedit" layoutX="171.0" layoutY="333.0" />
+      <Text layoutX="71.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ville" wrappingWidth="81.13671875" />
+      <Button fx:id="edit" layoutX="468.0" layoutY="404.0" mnemonicParsing="false" onAction="#editref" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: #ADD8E6;" text="Modifier" />
+      <Button fx:id="retourm" layoutX="40.0" layoutY="404.0" mnemonicParsing="false" onAction="#retourm" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: #ADD8E6;" text="Retour" />
+      <TextField fx:id="emailedit" layoutX="472.0" layoutY="54.0" />
+      <Text layoutX="372.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" wrappingWidth="81.13671875" />
+      <TextField fx:id="passwordedit" layoutX="472.0" layoutY="89.0" />
+      <Text layoutX="372.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="81.13671875" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="refuge.MenuController">
+   <children>
+      <AnchorPane prefHeight="407.0" prefWidth="200.0" style="-fx-background-color: #48A5EA;" />
+      <Button fx:id="lister" layoutX="217.0" layoutY="171.0" mnemonicParsing="false" onAction="#listerrf" prefHeight="25.0" prefWidth="205.0" style="-fx-background-color: #ADD8E6;" text="Lister" />
+      <ImageView fx:id="img" fitHeight="136.0" fitWidth="327.0" layoutX="70.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="dec" layoutX="488.0" layoutY="344.0" onAction="#deconn" text="Déconnexion" textFill="#48a5ea" />
+   </children>
+</AnchorPane>

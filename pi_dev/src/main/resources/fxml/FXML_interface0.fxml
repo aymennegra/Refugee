@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #48A5EA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXML_interface0Controller">
+   <children>
+      <ImageView fitHeight="421.0" fitWidth="302.0" layoutY="-1.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/affiche.jpg" />
+            
+            
+         </image>
+      </ImageView>
+      <Button fx:id="btn_espace_utilisateur" layoutX="222.0" layoutY="66.0" mnemonicParsing="false" opacity="0.7" prefHeight="65.0" prefWidth="295.0" style="-fx-background-color: #2b84cd;" text="Espace utilisateur"  onAction="#b_espace_utilisateur" textFill="#073357">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_espace_association" layoutX="223.0"  onAction="#b_espace_association" layoutY="144.0" mnemonicParsing="false" opacity="0.7" prefHeight="65.0" prefWidth="295.0" style="-fx-background-color: #2b84cd;" text="Espace association" textFill="#073357">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_espace_famille" layoutX="222.0"  onAction="#b_espace_famille" layoutY="221.0" mnemonicParsing="false" opacity="0.7" prefHeight="65.0" prefWidth="295.0" style="-fx-background-color: #2b84cd;" text="Espace famille" textFill="#073357">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="339.0" layoutY="296.0" prefHeight="21.0" prefWidth="359.0" text="Nous sommes toujours solidaires avec les réfugiés" textFill="#095e68">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="link_connexion" layoutX="565.0" layoutY="30.0" text="Connexion">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

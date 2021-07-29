@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.famille.FXML_contacter_refugeController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="141.0" style="-fx-background-color: #48A5EA;">
+         <children>
+            <Label layoutX="8.0" layoutY="117.0" prefHeight="21.0" prefWidth="88.0" text="Profil" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="211.0" text="Liste association">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="146.0" text="Faire un don">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="179.0" text="Liste refugiés">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="172.0" layoutY="25.0" text="Contacter" textFill="#095e68">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="51.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="nom_ref" layoutX="192.0" layoutY="96.0" prefHeight="36.0" prefWidth="118.0" text="Nom :">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="nom_ref_db" layoutX="288.0" layoutY="98.0" prefHeight="36.0" prefWidth="118.0" text="Nom :">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="envo_i" layoutX="556.0" layoutY="330.0" mnemonicParsing="false" onAction="#btn_modifieProfil" text="Envoyer" />
+      <Label fx:id="login_ref_db" layoutX="288.0" layoutY="34.0" text="Label" />
+      <Button fx:id="retour" layoutY="-1.0" mnemonicParsing="false" onAction="#retour" opacity="0.59" prefHeight="31.0" prefWidth="141.0" text="Retour" />
+      <Label fx:id="nom_ref1" layoutX="188.0" layoutY="144.0" prefHeight="36.0" prefWidth="118.0" text="Message :">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="tx" layoutX="341.0" layoutY="154.0" prefHeight="163.0" prefWidth="308.0" promptText="envoyer votre message" />
+   </children>
+</AnchorPane>

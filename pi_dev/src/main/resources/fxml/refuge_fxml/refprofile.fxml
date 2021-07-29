@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="742.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="refuge.RefprofileController">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="525.0" prefWidth="282.0" style="-fx-background-color: #48A5EA;">
+         <children>
+            <Text fill="WHITE" layoutX="39.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom" wrappingWidth="118.13671875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="37.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" wrappingWidth="118.13671875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="40.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sexe" wrappingWidth="118.13671875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="40.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cin" wrappingWidth="118.13671875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="40.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Num Tel" wrappingWidth="118.13671875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Label fx:id="labelsexe" layoutX="153.0" layoutY="194.0" prefHeight="34.0" prefWidth="129.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelnum" layoutX="153.0" layoutY="250.0" prefHeight="34.0" prefWidth="129.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelprenom" layoutX="158.0" layoutY="96.0" prefHeight="34.0" prefWidth="118.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelnom" layoutX="152.0" layoutY="51.0" prefHeight="34.0" prefWidth="118.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelcin" layoutX="158.0" layoutY="145.0" prefHeight="34.0" prefWidth="118.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="127.0" fitWidth="265.0" layoutX="172.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#48a5ea" layoutX="312.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="118.13671875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#48a5ea" fontSmoothingType="LCD" layoutX="312.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" wrappingWidth="118.13671875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Label fx:id="labeldate" layoutX="533.0" layoutY="303.0" prefHeight="34.0" prefWidth="151.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelemail" layoutX="437.0" layoutY="46.0" prefHeight="34.0" prefWidth="216.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelpassword" layoutX="437.0" layoutY="93.0" prefHeight="34.0" prefWidth="191.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Text fill="#48a5ea" layoutX="312.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ville" wrappingWidth="118.13671875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Label fx:id="labelville" layoutX="437.0" layoutY="196.0" prefHeight="34.0" prefWidth="151.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="retour" layoutX="561.0" layoutY="450.0" mnemonicParsing="false" onAction="#btnretour" prefHeight="37.0" prefWidth="151.0" style="-fx-background-color: #ADD8E6;" text="Retour" />
+      <Text fill="#48a5ea" layoutX="308.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Naissance" wrappingWidth="164.13671875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
